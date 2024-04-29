@@ -1,0 +1,2394 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.25f1 (530ae0ba3889) revision 5442272'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'fr' Physical Memory: 5996 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/bibi3/Desktop/Dodge-Driver
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+57811
+Successfully changed project path to: C:/Users/bibi3/Desktop/Dodge-Driver
+C:/Users/bibi3/Desktop/Dodge-Driver
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [29700] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 743168540 [EditorId] 743168540 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-535TLGHI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [29700] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 743168540 [EditorId] 743168540 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-535TLGHI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 199.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.25f1 (530ae0ba3889)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/bibi3/Desktop/Dodge-Driver/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3979 MB
+    Driver:   31.0.15.3197
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008100 seconds.
+- Loaded All Assemblies, in  1.395 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.482 seconds
+Domain Reload Profiling: 1877ms
+	BeginReloadAssembly (181ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (383ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (758ms)
+		LoadAssemblies (177ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (754ms)
+			TypeCache.Refresh (750ms)
+				TypeCache.ScanAssembly (725ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (483ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (388ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (15ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (257ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.444 seconds
+Refreshing native plugins compatible for Editor in 7.01 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.052 seconds
+Domain Reload Profiling: 2487ms
+	BeginReloadAssembly (319ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (980ms)
+		LoadAssemblies (849ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (322ms)
+			TypeCache.Refresh (296ms)
+				TypeCache.ScanAssembly (200ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1053ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (798ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (631ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.32 seconds
+Refreshing native plugins compatible for Editor in 9.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (58.7 KB). Loaded Objects now: 2932.
+Memory consumption went from 115.1 MB to 115.1 MB.
+Total: 13.171800 ms (FindLiveObjects: 1.083500 ms CreateObjectMapping: 0.248400 ms MarkObjects: 11.236300 ms  DeleteObjects: 0.600600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 712788.210564 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_351.asset
+  artifactKey: Guid(896f2e05c8c94124cb0e10b7783beb80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_351.asset using Guid(896f2e05c8c94124cb0e10b7783beb80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f8607fb4aaa38fe636b4157ca2f8c6d8') in 0.309922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_367.asset
+  artifactKey: Guid(fd71bc7ad4c1ff941af88a74a6c4db16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_367.asset using Guid(fd71bc7ad4c1ff941af88a74a6c4db16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2dbe2fc0a10d68293d37ba02368e3944') in 0.032520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_336.asset
+  artifactKey: Guid(2e5ffe1f0e9e31846ad03289a900fbd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_336.asset using Guid(2e5ffe1f0e9e31846ad03289a900fbd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '44dc083ae2528ad5ca9cd28b13a32aea') in 0.042167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_34.asset
+  artifactKey: Guid(c6e669ec00a7e2347843e58522b05ef3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_34.asset using Guid(c6e669ec00a7e2347843e58522b05ef3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ca1fe6df972558a166b2c07fe26c4da7') in 0.046459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_376.asset
+  artifactKey: Guid(03b5c6fd32bfe7748acb6cb153f7af7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_376.asset using Guid(03b5c6fd32bfe7748acb6cb153f7af7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '750a64230c1890f183e5d49d2d621769') in 0.033543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_390.asset
+  artifactKey: Guid(7951a6660a21bdf47b9a35af0c47aaf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_390.asset using Guid(7951a6660a21bdf47b9a35af0c47aaf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f2cbad27c8829b46a11fd880aacea89c') in 0.048545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_400.asset
+  artifactKey: Guid(1b94b6bd52525cc4e8fa29b144880ae3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_400.asset using Guid(1b94b6bd52525cc4e8fa29b144880ae3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4e7325e684c50f3ac13bac0eb12d1b96') in 0.036793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_379.asset
+  artifactKey: Guid(4814e3565be1fa549bb8eadb099c7073) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_379.asset using Guid(4814e3565be1fa549bb8eadb099c7073) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7510c6850952423eac8f9edc64dfb345') in 0.041478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_41.asset
+  artifactKey: Guid(8b085116b15bbd6418000d7e22972cc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_41.asset using Guid(8b085116b15bbd6418000d7e22972cc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4eb288dab94a5119c19a374db09027f8') in 0.037188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_39.asset
+  artifactKey: Guid(afb65edf289a3da448b3575ac01fce6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_39.asset using Guid(afb65edf289a3da448b3575ac01fce6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd1b0ba2cd3aae3db5233fae59b5b5211') in 0.032793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_382.asset
+  artifactKey: Guid(f78e960803d21454c849df663d54dc1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_382.asset using Guid(f78e960803d21454c849df663d54dc1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '503669d6c16a959d1a634f0f575a1da8') in 0.034263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_387.asset
+  artifactKey: Guid(5cbd7a9db7a9adb44943adad644fa26c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_387.asset using Guid(5cbd7a9db7a9adb44943adad644fa26c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '71a325aa2273b42e04944f91097474cf') in 0.140625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_395.asset
+  artifactKey: Guid(92bf8688806b56042acdc08030adb779) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_395.asset using Guid(92bf8688806b56042acdc08030adb779) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '980bb81b83e3ff67bed500ca723304ce') in 0.054298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_378.asset
+  artifactKey: Guid(85bfee7464b921a4c939b2f0427b7667) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_378.asset using Guid(85bfee7464b921a4c939b2f0427b7667) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd6f7b07248e5e64dc96037ee2aaa1921') in 0.031679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_410.asset
+  artifactKey: Guid(40b76634d832f1e469014169d045ed2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_410.asset using Guid(40b76634d832f1e469014169d045ed2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fe22b2d2b20c833a89baec1ffa71e743') in 0.030097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_343.asset
+  artifactKey: Guid(0c816fdd06881e64eab28cea0b25db4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_343.asset using Guid(0c816fdd06881e64eab28cea0b25db4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '203b5d63b67355332379f9e427f5b3ed') in 0.026446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_350.asset
+  artifactKey: Guid(025e5277082ab894a9462912a20a3cfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_350.asset using Guid(025e5277082ab894a9462912a20a3cfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7c4e9f6497f63f6fa6ad77f2ca3aa2bc') in 0.024133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_27.asset
+  artifactKey: Guid(57010fd3afa76104fa1dd8783f9eb050) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_27.asset using Guid(57010fd3afa76104fa1dd8783f9eb050) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fb0eb5124af47af10ec6a55ec113c4e0') in 0.030317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_211.asset
+  artifactKey: Guid(c5c58776bc0633245bb6bc925f4ef550) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_211.asset using Guid(c5c58776bc0633245bb6bc925f4ef550) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ef08bba9a68c8ca8060c96f1cab01694') in 0.032162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_23.asset
+  artifactKey: Guid(d7f54eefd1a89dc4ab01d755408ce6cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_23.asset using Guid(d7f54eefd1a89dc4ab01d755408ce6cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fa80fc34d115d27d106d46c9e0cefb6f') in 0.025483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_396.asset
+  artifactKey: Guid(f9574aa21923a3d449c134b964926a2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_396.asset using Guid(f9574aa21923a3d449c134b964926a2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'adf7cc4478f626f2096ee52d434832ab') in 0.027154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_386.asset
+  artifactKey: Guid(46468111982cbf94e9ab10eefeddfc3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_386.asset using Guid(46468111982cbf94e9ab10eefeddfc3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '39dbfc2865aca4d1ffcb2fd341d48497') in 0.023579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_344.asset
+  artifactKey: Guid(238cae403cdb14446b76550a4097e90f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_344.asset using Guid(238cae403cdb14446b76550a4097e90f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4709e9801151404bab88352c3de96d60') in 0.027559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_353.asset
+  artifactKey: Guid(faab0afea1dffeb4d9237419faff8410) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_353.asset using Guid(faab0afea1dffeb4d9237419faff8410) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '75a2163376687423136956ad6d300612') in 0.026924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_320.asset
+  artifactKey: Guid(f4a27a5ae19f8264db4329b5d888a5f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_320.asset using Guid(f4a27a5ae19f8264db4329b5d888a5f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'af5f84736a70581440c41e742cfb3777') in 0.026756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_229.asset
+  artifactKey: Guid(55a9b699af1d4544b894dc32005631d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_229.asset using Guid(55a9b699af1d4544b894dc32005631d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e5b016f3ab58e33e2fb9c276c9927a2f') in 0.020247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_450.asset
+  artifactKey: Guid(650e54159b1ca2946b3d6ce33f7b31ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_450.asset using Guid(650e54159b1ca2946b3d6ce33f7b31ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cb3335d6da5bcbfab510c54e733abb40') in 0.024749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_436.asset
+  artifactKey: Guid(827ba059e98f8de4096427fc6b9701c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_436.asset using Guid(827ba059e98f8de4096427fc6b9701c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ebcdd6ad0eb204131594b216513efeff') in 0.026145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_445.asset
+  artifactKey: Guid(abbb588be5a1acf4ca627b1e77ae4f0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_445.asset using Guid(abbb588be5a1acf4ca627b1e77ae4f0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9f1e5e6ab2497e53ee01ff9ebecae58f') in 0.045491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_431.asset
+  artifactKey: Guid(7cf38b73857a6b2449d6b80c9ab24122) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_431.asset using Guid(7cf38b73857a6b2449d6b80c9ab24122) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4180ae7f50f9d1b9f821f52f603be447') in 0.040863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_437.asset
+  artifactKey: Guid(c3b7faddfa8d16d429e56a769e4a72db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_437.asset using Guid(c3b7faddfa8d16d429e56a769e4a72db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2a6f2ff7eb2c2ec7951e368c11305566') in 0.035139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_419.asset
+  artifactKey: Guid(15fc732df05ce73498b923a456755353) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_419.asset using Guid(15fc732df05ce73498b923a456755353) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b8cd3b7fde25613646c2a05b96cf50aa') in 0.033738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_442.asset
+  artifactKey: Guid(7f34e8819461d0e41a156d83e8b84066) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_442.asset using Guid(7f34e8819461d0e41a156d83e8b84066) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd047eacabff6cd1c8aa1f85400d4cd03') in 0.032292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_421.asset
+  artifactKey: Guid(1d27d1e4d818c5842bfdce99bea6ccf7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_421.asset using Guid(1d27d1e4d818c5842bfdce99bea6ccf7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '47caad2f10acd7cce5d7fb7ec98b2899') in 0.035155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_427.asset
+  artifactKey: Guid(fc11726822ccdf740ade9c2f9003c57f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_427.asset using Guid(fc11726822ccdf740ade9c2f9003c57f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '42b08dc798a02a745527d8070b55db72') in 0.031027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_426.asset
+  artifactKey: Guid(3013fac0110f2774e9db55d49dc11d15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_426.asset using Guid(3013fac0110f2774e9db55d49dc11d15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e1259f0d05481512700bfc572b2300ba') in 0.033737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_430.asset
+  artifactKey: Guid(f0c11c1e68df98440942ce3c3c8e99f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_430.asset using Guid(f0c11c1e68df98440942ce3c3c8e99f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '603d46816229b32fda158dae65924741') in 0.034357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_415.asset
+  artifactKey: Guid(b49c61cd0dedd0c478c6777ff60fdbd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_415.asset using Guid(b49c61cd0dedd0c478c6777ff60fdbd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a389d169c84b13ba3fd3d5c30f1265a9') in 0.025080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_423.asset
+  artifactKey: Guid(031761d11c7bdc748bf3055a67c9e721) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_423.asset using Guid(031761d11c7bdc748bf3055a67c9e721) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4e2d2a3250b3f299e1b3dc75798aca5b') in 0.026369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_454.asset
+  artifactKey: Guid(bae4d93331b094f4b8e9da0120a4aa90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_454.asset using Guid(bae4d93331b094f4b8e9da0120a4aa90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a303906373af5c5e903ebf8d601ff72d') in 0.032033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_439.asset
+  artifactKey: Guid(a2081fb55650c714f86beece3a5942c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_439.asset using Guid(a2081fb55650c714f86beece3a5942c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dceb9fcefadb6ac991a67f8502fcdb43') in 0.030986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_432.asset
+  artifactKey: Guid(51e7094d9031bc14c872f2b3ce34c81a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_432.asset using Guid(51e7094d9031bc14c872f2b3ce34c81a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '83f24645d2deebd044980bf2f0385349') in 0.029076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_318.asset
+  artifactKey: Guid(789af2a15eb00194b9d00a5982d80cdb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_318.asset using Guid(789af2a15eb00194b9d00a5982d80cdb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4901ba064bcad571a3a7baf749dd08fb') in 0.034911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_422.asset
+  artifactKey: Guid(4e59aa5de813f6b43af253e0a1427edc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_422.asset using Guid(4e59aa5de813f6b43af253e0a1427edc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b74b8abda56bbe7a48b434a6772ce59f') in 0.034499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_191.asset
+  artifactKey: Guid(48b25ef6e2911e44a99d89d838876254) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_191.asset using Guid(48b25ef6e2911e44a99d89d838876254) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '39041db43b4ea74f6c5fdc739ec5bd37') in 0.032347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_249.asset
+  artifactKey: Guid(4c24e46e47cec3e40a053590254e68b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_249.asset using Guid(4c24e46e47cec3e40a053590254e68b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '574dd9d1015644726f6a04bb8707f998') in 0.064469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_298.asset
+  artifactKey: Guid(a0fb08682463c4744af11ff9dd0bbbb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_298.asset using Guid(a0fb08682463c4744af11ff9dd0bbbb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2a5a1a5f76e4f6ca3677b05a1095f335') in 0.045080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_169.asset
+  artifactKey: Guid(66c139e1323d38541bfa3d0ff1d0327d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_169.asset using Guid(66c139e1323d38541bfa3d0ff1d0327d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5ddaa731fd69929df27ce9b72f9777d2') in 0.033310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_498.asset
+  artifactKey: Guid(a65035ed3f70b0549b7b173a486c5be6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_498.asset using Guid(a65035ed3f70b0549b7b173a486c5be6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fad734c9ccf47c2a439c533dd8b041d0') in 0.039610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_520.asset
+  artifactKey: Guid(26aa542a28d226d45a9e998b045fa3b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_520.asset using Guid(26aa542a28d226d45a9e998b045fa3b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6b86b6fa000643da34128609863871ab') in 0.039938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_509.asset
+  artifactKey: Guid(9c9ce4776a0ef384ca905df66337b3f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_509.asset using Guid(9c9ce4776a0ef384ca905df66337b3f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5571a04bf06da5e5b0ef1e2e90e30b6a') in 0.033323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_525.asset
+  artifactKey: Guid(c13838b722963c14982ae7291b48fd36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_525.asset using Guid(c13838b722963c14982ae7291b48fd36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '00b6b679c0e88d1531f5fac639aa52b8') in 0.037007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_511.asset
+  artifactKey: Guid(a30239e542a91bb45907ab21e52a2202) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_511.asset using Guid(a30239e542a91bb45907ab21e52a2202) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '82c9742a50a7229ed5d1b0a3a721697f') in 0.040601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_475.asset
+  artifactKey: Guid(8579fe9329c6b0242b18ca0279142d27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_475.asset using Guid(8579fe9329c6b0242b18ca0279142d27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3a3a134e6339eecd99d00520d57d8242') in 0.096975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_473.asset
+  artifactKey: Guid(2e5d7194386a3504ebad98ee6a29420f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_473.asset using Guid(2e5d7194386a3504ebad98ee6a29420f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '371bc992e8f6e6fb381ea76e3e1bb6ec') in 0.051310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_528.asset
+  artifactKey: Guid(57c9b9f53fc34624787faf53562be6d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_528.asset using Guid(57c9b9f53fc34624787faf53562be6d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ca56daae742456e2ea7721992c799f24') in 0.050698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_529.asset
+  artifactKey: Guid(cdbd8f3297579e145a861a344dbf716b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_529.asset using Guid(cdbd8f3297579e145a861a344dbf716b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'daf17a9502f14ef5a5a114e385caf334') in 0.029908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_480.asset
+  artifactKey: Guid(8698138bfc6ff3b46ae216509dea2939) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_480.asset using Guid(8698138bfc6ff3b46ae216509dea2939) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '403e916918abba93ed523b85259ecd63') in 0.028270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_50.asset
+  artifactKey: Guid(ab0ae80bc2634f94ea3d3e028f567743) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_50.asset using Guid(ab0ae80bc2634f94ea3d3e028f567743) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ff7dc0122d4f0c8e240de6fd889d007c') in 0.028825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_482.asset
+  artifactKey: Guid(0a183354142b0dc4e96116ecbbf4c93b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_482.asset using Guid(0a183354142b0dc4e96116ecbbf4c93b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b4639b1ec0d877cc60705c6cbae9f754') in 0.028486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_488.asset
+  artifactKey: Guid(3668f7af6b6d76a4bb3d2f4b54ce7eeb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_488.asset using Guid(3668f7af6b6d76a4bb3d2f4b54ce7eeb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e9a3ff1dcf8e0e51b878863a94b82966') in 0.031620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_517.asset
+  artifactKey: Guid(1e5a2bcf238ffaa428018a66fdb57e50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_517.asset using Guid(1e5a2bcf238ffaa428018a66fdb57e50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a42711b0929ec391dbb5e9646dbb2a51') in 0.027390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_501.asset
+  artifactKey: Guid(32755d96934854342959c6d0474821d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_501.asset using Guid(32755d96934854342959c6d0474821d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '20890c390701b3afe2c4183c3ea19359') in 0.029462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_48.asset
+  artifactKey: Guid(3d9f019cafc751b4aa50e7898644dc29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_48.asset using Guid(3d9f019cafc751b4aa50e7898644dc29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f90e3ccaf593d21ebffd242c6ab22f56') in 0.096413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_490.asset
+  artifactKey: Guid(eaa43353d64834341868b4fb28d797fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_490.asset using Guid(eaa43353d64834341868b4fb28d797fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2f2dbd2094145d80771a6872f24c3cf9') in 0.040768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_357.asset
+  artifactKey: Guid(58c73055afc0ec041bc4a932096b9ce8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_357.asset using Guid(58c73055afc0ec041bc4a932096b9ce8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bfdc3c739d8b40444748eff66ec09d5c') in 0.034017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_503.asset
+  artifactKey: Guid(2954d651ff6de884a9ef2ccfd08c0c78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_503.asset using Guid(2954d651ff6de884a9ef2ccfd08c0c78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '36c7f75f530d0570caadbf8da79dc316') in 0.028280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_3.asset
+  artifactKey: Guid(edcfcc25a954c7e4495fcdc6d073d84e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_3.asset using Guid(edcfcc25a954c7e4495fcdc6d073d84e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c516e9f098c784637715dc56f2921db4') in 0.029271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_566.asset
+  artifactKey: Guid(461166cb02c4bb74687b581d28318560) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_566.asset using Guid(461166cb02c4bb74687b581d28318560) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fbed11e10dfc4f9ff17ad2742e41630c') in 0.027317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_57.asset
+  artifactKey: Guid(abd250c645cbefd4eb49cdab795a80e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_57.asset using Guid(abd250c645cbefd4eb49cdab795a80e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c313c9e52f32db4de2b0551bb82ac294') in 0.033985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_55.asset
+  artifactKey: Guid(15f430388e31d454b8c6af052ebe48e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_55.asset using Guid(15f430388e31d454b8c6af052ebe48e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a77a484a927f9b149e64b3cf477cbcc4') in 0.025931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_557.asset
+  artifactKey: Guid(1e1a3e6c7abe275498f4c9385dc0abd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_557.asset using Guid(1e1a3e6c7abe275498f4c9385dc0abd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3c6f02497269551bff4b5e7270a0f256') in 0.037125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_543.asset
+  artifactKey: Guid(98cba79734ef0f74e9f0c6e72cd61366) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_543.asset using Guid(98cba79734ef0f74e9f0c6e72cd61366) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '26662473343245efae3c325775f0398a') in 0.036011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_574.asset
+  artifactKey: Guid(c5d24b22a34fc3244827c314250bf067) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_574.asset using Guid(c5d24b22a34fc3244827c314250bf067) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '93eb5f657504fc747c9c925527ee22e4') in 0.029586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_491.asset
+  artifactKey: Guid(9ae79336f2c1d4a47908eb2122822d75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_491.asset using Guid(9ae79336f2c1d4a47908eb2122822d75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e8d8974e54120a2da12d97d012223140') in 0.029962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_492.asset
+  artifactKey: Guid(887f0bb3c7edce343892a69d0c015136) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_492.asset using Guid(887f0bb3c7edce343892a69d0c015136) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd7470f1460612037b5b7ff4ef81b89d0') in 0.022448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_576.asset
+  artifactKey: Guid(14d72b4adb341734fa4a38cdf5db395d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_576.asset using Guid(14d72b4adb341734fa4a38cdf5db395d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ffe2986340b197b0d95d5ffb5349eb17') in 0.030009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_493.asset
+  artifactKey: Guid(1555272393c9b194eba3554b6b13b288) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_493.asset using Guid(1555272393c9b194eba3554b6b13b288) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '44a18d26798df07a3d639a7c90d9c8e3') in 0.029211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_538.asset
+  artifactKey: Guid(973db59f606fba640991ec196279ad9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_538.asset using Guid(973db59f606fba640991ec196279ad9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f246042d7ee330c7c44d63e4846db9bb') in 0.030249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_530.asset
+  artifactKey: Guid(03bd154fb73c7674aab24a2b3d0f325e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_530.asset using Guid(03bd154fb73c7674aab24a2b3d0f325e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ba66e1b17166de619fbdffa289bdd00d') in 0.029048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_572.asset
+  artifactKey: Guid(a174de278805db841b82fac9521e1c41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_572.asset using Guid(a174de278805db841b82fac9521e1c41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7350d1a8d5d9f13e309de4b52279bbf7') in 0.030483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_553.asset
+  artifactKey: Guid(bf17fb6187148e84d8d9b19c6919c6ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_553.asset using Guid(bf17fb6187148e84d8d9b19c6919c6ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '285de91161472ac738011851a6b1da3d') in 0.028962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_565.asset
+  artifactKey: Guid(e922ff328438f1843a0a6613c7484f4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_565.asset using Guid(e922ff328438f1843a0a6613c7484f4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bd9242b51a5a58d2dc03f641595c487c') in 0.027152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_406.asset
+  artifactKey: Guid(4379c3be98145d14fa5db5c847b8bc2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_406.asset using Guid(4379c3be98145d14fa5db5c847b8bc2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '72f34ee5c87f2361155fc2bbdca3957a') in 0.029980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_535.asset
+  artifactKey: Guid(5e0eece4025cd3841ab12bded6cc4a66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_535.asset using Guid(5e0eece4025cd3841ab12bded6cc4a66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '80a5b5e3a5c6159acab643bce5594662') in 0.025972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_614.asset
+  artifactKey: Guid(1c7f5d93cce85e54a94f249d739873c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_614.asset using Guid(1c7f5d93cce85e54a94f249d739873c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'af3cb5b99034fd6c8707ff0f1af3f5d2') in 0.030440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_598.asset
+  artifactKey: Guid(dad28cd832435634c9aef7aeeaf366fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_598.asset using Guid(dad28cd832435634c9aef7aeeaf366fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a0b587570ea69e3aeaafa529534fc07f') in 0.036444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_59.asset
+  artifactKey: Guid(baf2be4ca3589cc4395b6006ddfce36d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_59.asset using Guid(baf2be4ca3589cc4395b6006ddfce36d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5510e8082711005d261b2e88fb507841') in 0.033415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_621.asset
+  artifactKey: Guid(82e8d6d08371dc44aaf349db778757fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_621.asset using Guid(82e8d6d08371dc44aaf349db778757fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '38b21333f159dab6f4d6440333a4f875') in 0.043750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_625.asset
+  artifactKey: Guid(9ecd574c13a9def43a738611261330aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_625.asset using Guid(9ecd574c13a9def43a738611261330aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8ef8b7cb7bf39f00ca7c463e685cc7b5') in 0.176344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_626.asset
+  artifactKey: Guid(4546b9637ea76364b83a5f0d9b620272) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_626.asset using Guid(4546b9637ea76364b83a5f0d9b620272) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd2716d23181dcc490e0c1832edc53312') in 0.062038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_596.asset
+  artifactKey: Guid(0f33679fc7a51fe4abc40fc161d218f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_596.asset using Guid(0f33679fc7a51fe4abc40fc161d218f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4c9f484f15449c685516f9e745177e93') in 0.035867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_594.asset
+  artifactKey: Guid(d5c02505a09760e40bfab962757f03bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_594.asset using Guid(d5c02505a09760e40bfab962757f03bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '907ba417add2ee69ad203914870f9112') in 0.062916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001697 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_595.asset
+  artifactKey: Guid(bc697275f3b5a624b8d19af7236138b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_595.asset using Guid(bc697275f3b5a624b8d19af7236138b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f9221dd8c63d77c12aa18aafffe07920') in 0.148706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001210 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_577.asset
+  artifactKey: Guid(540359da037495c4aa0e9ecca844af69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_577.asset using Guid(540359da037495c4aa0e9ecca844af69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '28c8680f0f4f104a181f04bd200e8c33') in 0.064606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_630.asset
+  artifactKey: Guid(55732e235d0fd9249b087318fbb776e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_630.asset using Guid(55732e235d0fd9249b087318fbb776e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b051aaab568f97fef728796ec4520278') in 0.061690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000701 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_637.asset
+  artifactKey: Guid(dd1970738a0bcf546845091f8f7bdd97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_637.asset using Guid(dd1970738a0bcf546845091f8f7bdd97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a55affd35758cc2f1c4e573b926f3536') in 0.107716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_648.asset
+  artifactKey: Guid(041a6aceb729bcf458fec7db437be07f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_648.asset using Guid(041a6aceb729bcf458fec7db437be07f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c4ba6f5be66481a87b98c583f53db262') in 0.061933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_632.asset
+  artifactKey: Guid(29a24a1b68314d64cbd85f1ae3d092da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_632.asset using Guid(29a24a1b68314d64cbd85f1ae3d092da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '035af18c4e700216709a88b4f2eb41c5') in 0.049770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_602.asset
+  artifactKey: Guid(d944fc9a0b17333448a1a0b9e6e29861) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_602.asset using Guid(d944fc9a0b17333448a1a0b9e6e29861) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f63db4cc0dc0fbb5a977746d556b30af') in 0.036871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_634.asset
+  artifactKey: Guid(93fd9da85650cdc4b96ff8052ddeaa99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_634.asset using Guid(93fd9da85650cdc4b96ff8052ddeaa99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '775c8de6c3b6abcbb2a29bf9bac28ff7') in 0.043529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_635.asset
+  artifactKey: Guid(890e3317f0bc04545bdf02ae71a7acd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_635.asset using Guid(890e3317f0bc04545bdf02ae71a7acd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '39543c6c7a2c2de129bf2009c05f6498') in 0.044344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_599.asset
+  artifactKey: Guid(843ff0b46dfb1ec4f95dfff259b2f45a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_599.asset using Guid(843ff0b46dfb1ec4f95dfff259b2f45a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c4784030a820d19ed6f28f59af1047e9') in 0.026967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_583.asset
+  artifactKey: Guid(047be640eedff4b4382fd76e32a5d1b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_583.asset using Guid(047be640eedff4b4382fd76e32a5d1b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '96dc60a916505412927cfc781cbfb63e') in 0.036516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_63.asset
+  artifactKey: Guid(12bd2ea5a06d9da4682dd87e73e18d9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_63.asset using Guid(12bd2ea5a06d9da4682dd87e73e18d9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0c768d472a82747ff20e62ec47c91be1') in 0.041922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_585.asset
+  artifactKey: Guid(8f19f95c48910e04ca31599e7f375ddc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_585.asset using Guid(8f19f95c48910e04ca31599e7f375ddc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '34cae18e2aa745a9a9f2edb70b703769') in 0.034866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_678.asset
+  artifactKey: Guid(62f4d6fe01bf9044f8d3a277d52c1f06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_678.asset using Guid(62f4d6fe01bf9044f8d3a277d52c1f06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '89464fa537c834bbfdc932332d75ac9a') in 0.044839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_684.asset
+  artifactKey: Guid(53e20642dcf92cd409e53bf6f50d3f90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_684.asset using Guid(53e20642dcf92cd409e53bf6f50d3f90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '960f9c816360d896c21b551f545b5938') in 0.063044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_681.asset
+  artifactKey: Guid(dbc78c161e2a21e47bfb11d0b73aecaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_681.asset using Guid(dbc78c161e2a21e47bfb11d0b73aecaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0a48452c876e94649da4330c4798ed12') in 0.051846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_677.asset
+  artifactKey: Guid(14c4f0fd781e184488b00404669eb4a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_677.asset using Guid(14c4f0fd781e184488b00404669eb4a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bfaabe5b9660366b401e5675b50efaa8') in 0.040333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_666.asset
+  artifactKey: Guid(0a92de3edfcd4984c805a5a2dbd4e514) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_666.asset using Guid(0a92de3edfcd4984c805a5a2dbd4e514) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f826984bf4d004e5a1c9c16d7f21e8c4') in 0.041686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_664.asset
+  artifactKey: Guid(aed0c2332abf13a49a67e56de31cab59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_664.asset using Guid(aed0c2332abf13a49a67e56de31cab59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1ed958f1ede8932d75291aa5446b2668') in 0.043366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_683.asset
+  artifactKey: Guid(666ae373845bc3e4bac2767fda51f9a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_683.asset using Guid(666ae373845bc3e4bac2767fda51f9a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ea5d08c9caf2787e25eaca2cba0e65e4') in 0.052242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_658.asset
+  artifactKey: Guid(d05cd202c5c48f64bbe4b7539be3e069) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_658.asset using Guid(d05cd202c5c48f64bbe4b7539be3e069) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7812279d7f7517d7a5e20a0fad4a30b9') in 0.047462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_647.asset
+  artifactKey: Guid(e695e390dec9681499484c5771acb576) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_647.asset using Guid(e695e390dec9681499484c5771acb576) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '59287ec40aa007c040bd8b9652aca253') in 0.030131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_636.asset
+  artifactKey: Guid(8e1bdf31f49608049b999198b690c4f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_636.asset using Guid(8e1bdf31f49608049b999198b690c4f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f271ac372c4ce486ceaedffa60d1e1a3') in 0.027953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_633.asset
+  artifactKey: Guid(8ce45dadfcfffec44b34782d18236feb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_633.asset using Guid(8ce45dadfcfffec44b34782d18236feb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ebc5c7e76574e22efa4eb3335914c0a0') in 0.029566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_605.asset
+  artifactKey: Guid(ce39e57d795adb449b551e1e899d01e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_605.asset using Guid(ce39e57d795adb449b551e1e899d01e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '36de0e655eaefd4c2511e6b056afc596') in 0.026278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_708.asset
+  artifactKey: Guid(42fb43ff2de293a4aba29756ad657442) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_708.asset using Guid(42fb43ff2de293a4aba29756ad657442) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0c1d4f20f1a61daa31e7401758944fa2') in 0.024865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_702.asset
+  artifactKey: Guid(b4fd88dc6f5e446408df8ddebce67762) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_702.asset using Guid(b4fd88dc6f5e446408df8ddebce67762) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e5a103a806f50a5fe0b42da8e1bfc100') in 0.026651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_705.asset
+  artifactKey: Guid(d7445ad4fd9db634bbc36133d37b3825) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_705.asset using Guid(d7445ad4fd9db634bbc36133d37b3825) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7a0bcb75f89914c42a29e2ba7b61e3e6') in 0.027251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_707.asset
+  artifactKey: Guid(d1d6098c2ba694346b0e86cf09e55159) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_707.asset using Guid(d1d6098c2ba694346b0e86cf09e55159) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2b7945a58ec2cb72b204a915be11c9a2') in 0.027592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_706.asset
+  artifactKey: Guid(4fd49fadc48dc2547b3e96f59a32cccd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_706.asset using Guid(4fd49fadc48dc2547b3e96f59a32cccd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1a27e853f8abd3b347ed3781c951f0cd') in 0.024121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_710.asset
+  artifactKey: Guid(b3b4a0b25f9b4644499397d60b357b5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_710.asset using Guid(b3b4a0b25f9b4644499397d60b357b5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f2df8d4f109994d0d96f372b65913684') in 0.035009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_695.asset
+  artifactKey: Guid(9b0f007e08fa2b5498b5a4ec3a6a120c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_695.asset using Guid(9b0f007e08fa2b5498b5a4ec3a6a120c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '87b64c6b05b9b1a6b2389d499aa26294') in 0.035112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_703.asset
+  artifactKey: Guid(7ad1a95f6d33ff24b8e14f0e18a99516) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_703.asset using Guid(7ad1a95f6d33ff24b8e14f0e18a99516) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7c454f768b2903eb729820c70d4e823d') in 0.036523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_697.asset
+  artifactKey: Guid(e7936a8fc5935ef47812f7b8bbe45b4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_697.asset using Guid(e7936a8fc5935ef47812f7b8bbe45b4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7eed6e1c5f5516bdb3be070f14ddb748') in 0.032025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_69.asset
+  artifactKey: Guid(9c10651ce6e68954782e66caaff77262) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_69.asset using Guid(9c10651ce6e68954782e66caaff77262) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f7c7bfcbc71ce7f5d685544ee8ab9d94') in 0.029093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_670.asset
+  artifactKey: Guid(b8789a196c1dd9a41bd8c20272f51247) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_670.asset using Guid(b8789a196c1dd9a41bd8c20272f51247) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a61f5d60f65acfb037f8280cfea7e43c') in 0.030035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_660.asset
+  artifactKey: Guid(3cb8c0718065c454ca08e86d8dbb9600) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_660.asset using Guid(3cb8c0718065c454ca08e86d8dbb9600) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dca6e4f55a517a35fe8b6f4829021414') in 0.029090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_668.asset
+  artifactKey: Guid(1dd0cdf4c54746c4f840c8c2c586c0d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_668.asset using Guid(1dd0cdf4c54746c4f840c8c2c586c0d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2afa2451c85c28affc9f17efdc04b8ef') in 0.030921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_711.asset
+  artifactKey: Guid(32c0d3f46e286954ab612530c8d76c95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_711.asset using Guid(32c0d3f46e286954ab612530c8d76c95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '97d732cc58ef0fca52d7c6c0c92025d5') in 0.032598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_657.asset
+  artifactKey: Guid(cb5ee36f9db63924fadaa54f677d7496) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_657.asset using Guid(cb5ee36f9db63924fadaa54f677d7496) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cb780599048230b367f501db6616845c') in 0.030420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_712.asset
+  artifactKey: Guid(c0978b9c69daac84883e685f33a5c0f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_712.asset using Guid(c0978b9c69daac84883e685f33a5c0f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aa5c9ecf1409948845c1d02a6e5d2a5c') in 0.030505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_734.asset
+  artifactKey: Guid(30b22a62186f1cb46bf85f2cc34cde04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_734.asset using Guid(30b22a62186f1cb46bf85f2cc34cde04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '75ecad125044f7c6f7218ac63cc49339') in 0.032690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_737.asset
+  artifactKey: Guid(50260771bb02ec545b31ac097da389f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_737.asset using Guid(50260771bb02ec545b31ac097da389f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f406d0289a2e002f3c0b6a8a313a0648') in 0.032113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_747.asset
+  artifactKey: Guid(3d26c041492d6374b82ad84aab28c525) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_747.asset using Guid(3d26c041492d6374b82ad84aab28c525) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7f20286e2ab86df9f04f5696ab04702b') in 0.034325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_758.asset
+  artifactKey: Guid(6f85364d78a63924a8e3a84d09cb6c70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_758.asset using Guid(6f85364d78a63924a8e3a84d09cb6c70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '40452b21078ac3c06b84d7f9bc23b226') in 0.026062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_76.asset
+  artifactKey: Guid(916dfac5f455c6d478c8df9e4a514da2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_76.asset using Guid(916dfac5f455c6d478c8df9e4a514da2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5e0ac8c9a9ee745cd83d8c7f58c7c9e8') in 0.028101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_745.asset
+  artifactKey: Guid(b2b145549718df34e8ebe01d9c0d4c55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_745.asset using Guid(b2b145549718df34e8ebe01d9c0d4c55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5a3bfb1c64227922c2f245d864ce855d') in 0.022970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_739.asset
+  artifactKey: Guid(c25323f18a8536148adc9a2d8f734d78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_739.asset using Guid(c25323f18a8536148adc9a2d8f734d78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5af488a727ca41dcd068e6f16fed1be9') in 0.023534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_756.asset
+  artifactKey: Guid(80754fdaf4bebfc47bdf855fd194d707) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_756.asset using Guid(80754fdaf4bebfc47bdf855fd194d707) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1ff38c2996374864a705ec9057bc47b0') in 0.026711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_731.asset
+  artifactKey: Guid(993d1aedb73b00c4c9573633b0e6e5cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_731.asset using Guid(993d1aedb73b00c4c9573633b0e6e5cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '350dd1ec435887e11285fd6bcb3ae070') in 0.024385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_732.asset
+  artifactKey: Guid(d720714c5ee7fea4080a2ee9f47108f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_732.asset using Guid(d720714c5ee7fea4080a2ee9f47108f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9a43c465aabb08f96fa02d6cda808393') in 0.025991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_727.asset
+  artifactKey: Guid(d9255af6b41b52d4a902403370029861) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_727.asset using Guid(d9255af6b41b52d4a902403370029861) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b1142cb43ec770a75617dd2d3cac9c3e') in 0.028479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_735.asset
+  artifactKey: Guid(6c171eae39dcca045b4bf6f047ced061) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_735.asset using Guid(6c171eae39dcca045b4bf6f047ced061) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e5356aa6e39ea74924f73b1b7837bf95') in 0.027773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_743.asset
+  artifactKey: Guid(03764d32e98d0ba49bca4e8a1a83b88c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_743.asset using Guid(03764d32e98d0ba49bca4e8a1a83b88c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '06ac8761d29e3900713b9f5deb20e5f8') in 0.025827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_749.asset
+  artifactKey: Guid(1b0a6463b4d2d674b9d94396ffabd84a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_749.asset using Guid(1b0a6463b4d2d674b9d94396ffabd84a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6e9036ae81ef16f5a1a0ed92e5d415df') in 0.025723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_672.asset
+  artifactKey: Guid(492272062ab91da448c3e3399f2f50e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_672.asset using Guid(492272062ab91da448c3e3399f2f50e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a4b2d14320bb1e8ab84d58eb828d3ad8') in 0.037941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_754.asset
+  artifactKey: Guid(b1d0c5542bcab374a99f3838f82a6121) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_754.asset using Guid(b1d0c5542bcab374a99f3838f82a6121) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '28c06aec53ea76dfa862a212aba2ba31') in 0.027557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_623.asset
+  artifactKey: Guid(ee68b50e728290c43ba8e5417e8d8dfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_623.asset using Guid(ee68b50e728290c43ba8e5417e8d8dfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a3111cf06419131d9cfe06bb6f0a1252') in 0.023912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_778.asset
+  artifactKey: Guid(8c7804d418f2748469bf652f4409c32d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_778.asset using Guid(8c7804d418f2748469bf652f4409c32d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3c3dd9128f0379c9dc41a9a403c92ed1') in 0.024431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_804.asset
+  artifactKey: Guid(d9df67627ff9cf44981e21a2a754f005) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_804.asset using Guid(d9df67627ff9cf44981e21a2a754f005) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '60d89d22265c6410dfbbec2d392aaac8') in 0.030095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_790.asset
+  artifactKey: Guid(dc5b18033a0f9d24db4fce98291f98dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_790.asset using Guid(dc5b18033a0f9d24db4fce98291f98dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a4fadc3fd5b8d52fd1627e205e8526b1') in 0.026871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_766.asset
+  artifactKey: Guid(170127e58c5f00243bb20bf5ab8b159f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_766.asset using Guid(170127e58c5f00243bb20bf5ab8b159f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5476253f3700cf0f65180fdcd1cbe6ba') in 0.025127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_795.asset
+  artifactKey: Guid(abd526bed5749af4c9e51dca1ef01dc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_795.asset using Guid(abd526bed5749af4c9e51dca1ef01dc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dfed89c6f673568528a1098a344ef1ce') in 0.024678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_762.asset
+  artifactKey: Guid(0faf2b726597d0b4db7f9ce8a8932590) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_762.asset using Guid(0faf2b726597d0b4db7f9ce8a8932590) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e8512dc1d7bd31341bedb1edb2cb3110') in 0.024773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_769.asset
+  artifactKey: Guid(d7f6acd430acd1e4e8acc62611d4687f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_769.asset using Guid(d7f6acd430acd1e4e8acc62611d4687f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3f585de3dbbb16af1d9cdd8fcbac2deb') in 0.024041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_789.asset
+  artifactKey: Guid(8225a828f54fba142be7076a3877a07e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_789.asset using Guid(8225a828f54fba142be7076a3877a07e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c8ca18491a89f743fd43bae3f8c5977f') in 0.025873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_781.asset
+  artifactKey: Guid(fe7faf5166a0c5041a7cbec27821d9cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_781.asset using Guid(fe7faf5166a0c5041a7cbec27821d9cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '98817266f5cd019f49f260d3bb086fc2') in 0.027242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_779.asset
+  artifactKey: Guid(549620acb6a2ecc40954d22d5ef9867f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_779.asset using Guid(549620acb6a2ecc40954d22d5ef9867f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '91cfec162e68c1ae811377c2cf8d4ce4') in 0.024404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_798.asset
+  artifactKey: Guid(c6681a2a7f6410641835c76f4dbcd620) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_798.asset using Guid(c6681a2a7f6410641835c76f4dbcd620) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0cda8a8f048b77ae4527351817e6a1f9') in 0.025619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_774.asset
+  artifactKey: Guid(4456afde581f9c04484b26e0ddf3c2cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_774.asset using Guid(4456afde581f9c04484b26e0ddf3c2cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1302b4a847cf836e7d4fe267c6798bc6') in 0.026768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_792.asset
+  artifactKey: Guid(df2460e7551181f48a4708639a205ee3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_792.asset using Guid(df2460e7551181f48a4708639a205ee3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '65e5d200cf68c4b1f0c43b377d3c3c50') in 0.027625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_784.asset
+  artifactKey: Guid(7a77003ab90c76d4b8719f1e7aa78842) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_784.asset using Guid(7a77003ab90c76d4b8719f1e7aa78842) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '75bf04f82321e8bbd19f55eecea2dc59') in 0.028070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_787.asset
+  artifactKey: Guid(c42d9d37e791de846bb7b69454c1b93c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_787.asset using Guid(c42d9d37e791de846bb7b69454c1b93c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd395f9568c85516a6b9e3841a86e1f07') in 0.030072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_775.asset
+  artifactKey: Guid(4ef790dfb4512964db04eea334e9d33b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_775.asset using Guid(4ef790dfb4512964db04eea334e9d33b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a235d9f148f14cc30621cd93ec96cd80') in 0.031019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_612.asset
+  artifactKey: Guid(d257b233c30c652428cd8603f543b684) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_612.asset using Guid(d257b233c30c652428cd8603f543b684) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b4bb3376e424519c7fc66be2cc4f9509') in 0.030595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_597.asset
+  artifactKey: Guid(52f5fbc168ed6cd4cadb1365389dd74c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_597.asset using Guid(52f5fbc168ed6cd4cadb1365389dd74c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1b5303a1588dcd147c6eb6957195a5fe') in 0.031863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_65.asset
+  artifactKey: Guid(bea8b429e0da76c45891cb6f2fcbbd6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_65.asset using Guid(bea8b429e0da76c45891cb6f2fcbbd6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4b30e9bdd9e3449a645db83a776be7da') in 0.027724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_837.asset
+  artifactKey: Guid(b8cf085fe3434b748993e1a5e39e0999) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_837.asset using Guid(b8cf085fe3434b748993e1a5e39e0999) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e4d4fad3e6d427b707780abe0d4f7275') in 0.028943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_857.asset
+  artifactKey: Guid(3390be25e240e7841aed14a8a1b6ef57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_857.asset using Guid(3390be25e240e7841aed14a8a1b6ef57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aa9efeb3aedcac0487e28c845bb16f5f') in 0.032758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_820.asset
+  artifactKey: Guid(8aa15e3f634f8fa4eb86979771723c43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_820.asset using Guid(8aa15e3f634f8fa4eb86979771723c43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b561234a2efe34cf6977c3ac708bfac2') in 0.028753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_848.asset
+  artifactKey: Guid(61afa4c773a568346b33e8b210bdf46b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_848.asset using Guid(61afa4c773a568346b33e8b210bdf46b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '043e9a2b49ef2a3203a2e4831d90d0eb') in 0.027959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_844.asset
+  artifactKey: Guid(74eafb40ab1b019478b031933d578cd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_844.asset using Guid(74eafb40ab1b019478b031933d578cd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a18a70cfc731f0b75125f3c978b1cb78') in 0.027447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_825.asset
+  artifactKey: Guid(0ca079ca89f50e44699fe8522b726c90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_825.asset using Guid(0ca079ca89f50e44699fe8522b726c90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '190aea7adacb0e21d055bffc62b0c6b2') in 0.026661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_82.asset
+  artifactKey: Guid(98a29ec20f2601c4babd881f80418194) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_82.asset using Guid(98a29ec20f2601c4babd881f80418194) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'be4c946da0baa4d25d5bcd10576d9ff6') in 0.028722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_842.asset
+  artifactKey: Guid(d0b9d4007b8d28d4686133b60ce9e74e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_842.asset using Guid(d0b9d4007b8d28d4686133b60ce9e74e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4da26371387672c85512a16195ac1dd8') in 0.029422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_851.asset
+  artifactKey: Guid(34922d7577a84bb48abbf7ca1c44d505) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_851.asset using Guid(34922d7577a84bb48abbf7ca1c44d505) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '66f7fa9ff0e8bb53672ec599a46cb33f') in 0.026853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_822.asset
+  artifactKey: Guid(89297d9643fd0734bb312b4079d6c97c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_822.asset using Guid(89297d9643fd0734bb312b4079d6c97c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'faf7e32d65d919fffafe833e0fd1036b') in 0.028061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_839.asset
+  artifactKey: Guid(7398cbf4de43aab46857cf94119fccd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_839.asset using Guid(7398cbf4de43aab46857cf94119fccd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0a1be47e761fd13d85d73e39ff2b86cb') in 0.029205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_859.asset
+  artifactKey: Guid(407ae4bac4f312d4f9ccf4b9c2afd450) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_859.asset using Guid(407ae4bac4f312d4f9ccf4b9c2afd450) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aa4bf24dbd3288716d6c33b3d56fd60c') in 0.026722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_853.asset
+  artifactKey: Guid(deae9884760f26a43bb44c38f92c8787) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_853.asset using Guid(deae9884760f26a43bb44c38f92c8787) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8ecc2de7a7c170b57270e4e7672186bd') in 0.024838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_85.asset
+  artifactKey: Guid(a40da1074a1d765449579de720ccc16f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_85.asset using Guid(a40da1074a1d765449579de720ccc16f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8d6848be9c5703798ba06d78de59df44') in 0.028443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_843.asset
+  artifactKey: Guid(16f9c24d7a97da946bffcdd3246aa90a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_843.asset using Guid(16f9c24d7a97da946bffcdd3246aa90a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5dcc8149a4cfb4abca36edb87f3fa553') in 0.027539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_811.asset
+  artifactKey: Guid(465678882eae11040871f12a1fc4d7e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_811.asset using Guid(465678882eae11040871f12a1fc4d7e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '83c55dd5c26b4b93a8c3bbd6e9215158') in 0.024275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_830.asset
+  artifactKey: Guid(f931f0cc19859ef46b9126cb037439b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_830.asset using Guid(f931f0cc19859ef46b9126cb037439b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd01cdf41df092f2d8de8586f4e8526d4') in 0.025456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_846.asset
+  artifactKey: Guid(07e2fc68295feed4783e7d3dc6ac4530) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_846.asset using Guid(07e2fc68295feed4783e7d3dc6ac4530) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5b7d47c71a7566c21d631f611cab8e6d') in 0.025468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_555.asset
+  artifactKey: Guid(dcd4998e39eb0b94db56a528ac91c8c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_555.asset using Guid(dcd4998e39eb0b94db56a528ac91c8c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8d496767a5653acd4549a271077c7a52') in 0.026089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_886.asset
+  artifactKey: Guid(b981e6a2c4966844c9cacc16015390af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_886.asset using Guid(b981e6a2c4966844c9cacc16015390af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a1edaf0870ed7fc274b3f1833e8580c2') in 0.023615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_902.asset
+  artifactKey: Guid(c0dc62f845f1b9746a0531aef494ed6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_902.asset using Guid(c0dc62f845f1b9746a0531aef494ed6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '68fd6f1706748932d92bd4f94e1da849') in 0.030319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_87.asset
+  artifactKey: Guid(44eedf02348d4044e910018c7d84d9d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_87.asset using Guid(44eedf02348d4044e910018c7d84d9d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7ee63eb782bd694dd2682d4d4755f0e7') in 0.025584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_904.asset
+  artifactKey: Guid(2b73bd96fdd98714b929a371b6f19d77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_904.asset using Guid(2b73bd96fdd98714b929a371b6f19d77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fa0544acd1563ace12c3daf974ac2ea4') in 0.025019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_862.asset
+  artifactKey: Guid(152b19e846110ba4eaa9f36a5640cf96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_862.asset using Guid(152b19e846110ba4eaa9f36a5640cf96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3c577a758973b184042495262bb1a694') in 0.025235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_875.asset
+  artifactKey: Guid(ebefb3596a0559e47959e66211077253) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_875.asset using Guid(ebefb3596a0559e47959e66211077253) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eabc4325e280b320673aacd9bf89f619') in 0.024032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_863.asset
+  artifactKey: Guid(9adae3b0489bb454f86d5d17f227edd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_863.asset using Guid(9adae3b0489bb454f86d5d17f227edd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd9ce4ca52faac717a8236728bb169365') in 0.028178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_906.asset
+  artifactKey: Guid(b4f0a2a6bf1387545ab635a7fe2fed03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_906.asset using Guid(b4f0a2a6bf1387545ab635a7fe2fed03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '021fa6fbfd41aff3ef296142983e3765') in 0.027627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_901.asset
+  artifactKey: Guid(ea498a51374e27541b64ed99615c3f19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_901.asset using Guid(ea498a51374e27541b64ed99615c3f19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f06a1741290913879963b869f3b1cb69') in 0.025813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_905.asset
+  artifactKey: Guid(1b05d411996bcb64e91663c22266e648) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_905.asset using Guid(1b05d411996bcb64e91663c22266e648) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '06fcd2ae71d82aa5a2d3eb51144ba817') in 0.023768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_882.asset
+  artifactKey: Guid(8bb7b2935baf5444cba7a7eff83efd62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_882.asset using Guid(8bb7b2935baf5444cba7a7eff83efd62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9e589cf993a7af92e0e4b2258e723606') in 0.027655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_860.asset
+  artifactKey: Guid(543a02cc9ed03104d976828183cb6ef2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_860.asset using Guid(543a02cc9ed03104d976828183cb6ef2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '26927aa98382727b5bad391f0cc58c9c') in 0.033435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_899.asset
+  artifactKey: Guid(dd3716b1d0f28054ab293670fe184416) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_899.asset using Guid(dd3716b1d0f28054ab293670fe184416) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '667e26679e34927282a5087cbece1f42') in 0.025031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_887.asset
+  artifactKey: Guid(80790a3683a8d8c499a24e514af08955) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_887.asset using Guid(80790a3683a8d8c499a24e514af08955) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '085adee6a85d691197320d586326ce8d') in 0.028083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_903.asset
+  artifactKey: Guid(da5c0972bddadc84f8e4eb5722154ee0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_903.asset using Guid(da5c0972bddadc84f8e4eb5722154ee0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '29c3f1cac1c34319be9e59d107624d74') in 0.028002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_879.asset
+  artifactKey: Guid(c662d54f5a314b64ba3e1574bfc86119) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_879.asset using Guid(c662d54f5a314b64ba3e1574bfc86119) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6f15dbed1e6d21f2d64d74638e1498ea') in 0.024399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_900.asset
+  artifactKey: Guid(c9aa73bfe6e9ddb4693022ffa4b1bf4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_900.asset using Guid(c9aa73bfe6e9ddb4693022ffa4b1bf4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f76bb3d737d269bd76504f0e5611a366') in 0.028538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_816.asset
+  artifactKey: Guid(c6c73a64c153517458f21707c5501907) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_816.asset using Guid(c6c73a64c153517458f21707c5501907) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '44809196dfa470f95b690610d2b9091f') in 0.024917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_923.asset
+  artifactKey: Guid(8a67f9ca31011fa4496f12b2fa702af3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_923.asset using Guid(8a67f9ca31011fa4496f12b2fa702af3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '52390ad0ba22cbe168797d8495cf3a7b') in 0.028214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_930.asset
+  artifactKey: Guid(a3fb8cf8615cb9b459bd3d1f55410a9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_930.asset using Guid(a3fb8cf8615cb9b459bd3d1f55410a9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6eb2f01596c93760166312134a677187') in 0.025315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_917.asset
+  artifactKey: Guid(6f683c7f12568964a8ea2c0b65b784d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_917.asset using Guid(6f683c7f12568964a8ea2c0b65b784d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '28cf821566bac33f035872dbd53eedde') in 0.028348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_952.asset
+  artifactKey: Guid(50bf2cd9998832f4893addc9dfed10c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_952.asset using Guid(50bf2cd9998832f4893addc9dfed10c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '86c65f6d2f31b956576e5f53bc23ce9e') in 0.029437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_955.asset
+  artifactKey: Guid(5c530795a84104c41adaa282f6932e40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_955.asset using Guid(5c530795a84104c41adaa282f6932e40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '06e4c7ca4552119cd7dd8ac6c5147bdc') in 0.027191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_950.asset
+  artifactKey: Guid(4fd7da4023cd4ea4db3bf351026112a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_950.asset using Guid(4fd7da4023cd4ea4db3bf351026112a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b87a932854a72bbe61b2c2f242fa24c7') in 0.026471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_913.asset
+  artifactKey: Guid(e9e1be014a1f5e04f89cd1a6d86f5e4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_913.asset using Guid(e9e1be014a1f5e04f89cd1a6d86f5e4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '71d63f12d52da9378e1656ef1b86e169') in 0.027811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_926.asset
+  artifactKey: Guid(97d9f8dc06f897143ba399f173c5ad5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_926.asset using Guid(97d9f8dc06f897143ba399f173c5ad5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f4515f8e4dbc5be338f966d9dc4e1782') in 0.027220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_941.asset
+  artifactKey: Guid(5bb7bc114f2a1e342b7897c14b37f2b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_941.asset using Guid(5bb7bc114f2a1e342b7897c14b37f2b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '364fac3444f0572c7f1273c9035c385b') in 0.026013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_912.asset
+  artifactKey: Guid(e51b72c4107884446a1d0194ad69974c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_912.asset using Guid(e51b72c4107884446a1d0194ad69974c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '818cae6a09f44830b8c43bdc772ba87a') in 0.027733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_922.asset
+  artifactKey: Guid(916784f0849fe47498d6241eaf17177b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_922.asset using Guid(916784f0849fe47498d6241eaf17177b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fba6715223f871e1388552c2cb193a0d') in 0.026325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_958.asset
+  artifactKey: Guid(6af75c6128fd8f44e99c8c58f86a7c28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_958.asset using Guid(6af75c6128fd8f44e99c8c58f86a7c28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f54dbf7aef0e650405481111e2a56e28') in 0.026868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_946.asset
+  artifactKey: Guid(d671f45609ef645409e54142019c491d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_946.asset using Guid(d671f45609ef645409e54142019c491d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c13901d3c73a7c3201e47769b8e8f100') in 0.035807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_944.asset
+  artifactKey: Guid(63bf6e6209cc330409100c8c46ddb4ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_944.asset using Guid(63bf6e6209cc330409100c8c46ddb4ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bef251a7099cb0c6614fcf4e50b0b21e') in 0.041651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_925.asset
+  artifactKey: Guid(0c7dd9b7792f17a4695935b3e7caacaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_925.asset using Guid(0c7dd9b7792f17a4695935b3e7caacaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '546542eb58c920c9d6290285485d40d1') in 0.042242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_954.asset
+  artifactKey: Guid(e6d505a9fcb554e4080cb7ef8bc7e44c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_954.asset using Guid(e6d505a9fcb554e4080cb7ef8bc7e44c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '491963336ffb11affbcf2467069d349d') in 0.035080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_959.asset
+  artifactKey: Guid(654bfba81ad5d5d479818b1bc4ad74be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_959.asset using Guid(654bfba81ad5d5d479818b1bc4ad74be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7572fada4a40c21ea2df03e700672fa5') in 0.026686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_967.asset
+  artifactKey: Guid(0b09246e7ebcb0547af424fc04b4bab4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_967.asset using Guid(0b09246e7ebcb0547af424fc04b4bab4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f3a8aad50ec8e420cff43cab70320609') in 0.030817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_988.asset
+  artifactKey: Guid(a73fa468ec6294d4c95034a29b2317c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_988.asset using Guid(a73fa468ec6294d4c95034a29b2317c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e815251f89f62f06e280fc84db66de1f') in 0.031391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_986.asset
+  artifactKey: Guid(424d8580d628ab04e8717639376a3819) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_986.asset using Guid(424d8580d628ab04e8717639376a3819) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ad3665bee4886c63f816fd5bfd19ca9c') in 0.030541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_993.asset
+  artifactKey: Guid(f9312ec53bbc66440b8218154b9fddc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_993.asset using Guid(f9312ec53bbc66440b8218154b9fddc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f000645ba62d8bcd11c645bd7570c9bb') in 0.033712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_968.asset
+  artifactKey: Guid(30863b77a2656ad4e898e85cb380f5f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_968.asset using Guid(30863b77a2656ad4e898e85cb380f5f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7a229d41949429a67ac39af5ccf19413') in 0.038412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_976.asset
+  artifactKey: Guid(ab7045d9a785e924e86e7ee70e60be8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_976.asset using Guid(ab7045d9a785e924e86e7ee70e60be8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '23019cf2588bca80dbb07f35b6331be0') in 0.030135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_987.asset
+  artifactKey: Guid(d048ca164a3da3b4d95c51eb223c8df5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_987.asset using Guid(d048ca164a3da3b4d95c51eb223c8df5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '89fde92fe451ee040a22fa6ca8c06c23') in 0.032494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_966.asset
+  artifactKey: Guid(6930c01bbd4608846ac5b613a5ee8300) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_966.asset using Guid(6930c01bbd4608846ac5b613a5ee8300) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '56d41f58b9bddf29c632b4d144ebee57') in 0.030921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_965.asset
+  artifactKey: Guid(987f76a896e195c4d8b44ccfdf678fb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_965.asset using Guid(987f76a896e195c4d8b44ccfdf678fb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ed58145f30e4ba20f7698033be19f637') in 0.031148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_99.asset
+  artifactKey: Guid(e35e638944d11334790778cee9fff3e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_99.asset using Guid(e35e638944d11334790778cee9fff3e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0b6ef061880a3bd3276adedd45da8db5') in 0.031892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_994.asset
+  artifactKey: Guid(af8bd1a00ded63b4bbc6bbfe9d8b6c56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_994.asset using Guid(af8bd1a00ded63b4bbc6bbfe9d8b6c56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '45d667779d591c994fefda4092c75d38') in 0.028625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_979.asset
+  artifactKey: Guid(26f35917cbdd3dd48879f8224a953ac4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_979.asset using Guid(26f35917cbdd3dd48879f8224a953ac4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1e9c7aebc3799898b0cc4f49c38f785d') in 0.029664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_992.asset
+  artifactKey: Guid(7f9f2a0cef541d449b76d66f6cc5ba92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_992.asset using Guid(7f9f2a0cef541d449b76d66f6cc5ba92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '28b7c8817db1e3cfdaff669768ededfd') in 0.029518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_999.asset
+  artifactKey: Guid(5b3ebbcc19d1f014792d251f9f15b6c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_999.asset using Guid(5b3ebbcc19d1f014792d251f9f15b6c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bf9584196b67269b41fbb901f18610d8') in 0.059262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_970.asset
+  artifactKey: Guid(8dadce547acd42747bfb94e3f9837f46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_970.asset using Guid(8dadce547acd42747bfb94e3f9837f46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bb96734cef05139637fa55ab58f95b77') in 0.045442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '65247b41a5fa75898a28dc74ac169b60') in 0.065975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_997.asset
+  artifactKey: Guid(08cef47a8d516344cba32f98b0567627) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_997.asset using Guid(08cef47a8d516344cba32f98b0567627) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7bdaff247778b29db1328ce68ff72a91') in 0.036964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_984.asset
+  artifactKey: Guid(deafa5a9f171f0545a1405d8125d55c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_984.asset using Guid(deafa5a9f171f0545a1405d8125d55c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '381cadecc72188ff58c1c8362674e76b') in 0.043623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_978.asset
+  artifactKey: Guid(816763bfbda5a754c88db6f36fe258a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_978.asset using Guid(816763bfbda5a754c88db6f36fe258a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3dbcb4b9c78c5b40a91cebfd84d52b6e') in 0.049510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_910.asset
+  artifactKey: Guid(1ae7d785df6367f4883d372ce47e8333) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_910.asset using Guid(1ae7d785df6367f4883d372ce47e8333) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9cfbe3943bc08513c4866e146ea5e5e7') in 0.039408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_931.asset
+  artifactKey: Guid(9fb150795d292ec41aaf83fb77a7dd31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_931.asset using Guid(9fb150795d292ec41aaf83fb77a7dd31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '00476f340c2cf9b14e8dc39e22a80965') in 0.036353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_962.asset
+  artifactKey: Guid(8fda93a0f7767a441a0130c5047ea252) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_962.asset using Guid(8fda93a0f7767a441a0130c5047ea252) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '54886a589d970f127d8bae69b3bbc65a') in 0.038079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_661.asset
+  artifactKey: Guid(15ada63e9e0f2344caed5ac2acb6fb65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_661.asset using Guid(15ada63e9e0f2344caed5ac2acb6fb65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c6645e56af4bacab7aa27ef924a99920') in 0.033715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_402.asset
+  artifactKey: Guid(2e0e7d071d613f14bae6699d40f8f5cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_402.asset using Guid(2e0e7d071d613f14bae6699d40f8f5cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6ac2ebe4da8e3f869662d5321489efeb') in 0.035070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_870.asset
+  artifactKey: Guid(9ce1ad35214a1b847a45cab0f08e6534) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_870.asset using Guid(9ce1ad35214a1b847a45cab0f08e6534) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4c70b2b7faa697b5513a5b67418ba410') in 0.032801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_175.asset
+  artifactKey: Guid(3600da2a98e8f8042914518f494f0950) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_175.asset using Guid(3600da2a98e8f8042914518f494f0950) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cfb87e7edd9b3e9288abfe090c02a2db') in 0.029304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_316.asset
+  artifactKey: Guid(f90f002bdd9195043af4b3654aa0234a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_316.asset using Guid(f90f002bdd9195043af4b3654aa0234a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1a356ae9445929fb9b57afe57ad8e264') in 0.029859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_531.asset
+  artifactKey: Guid(2c3b022252b181a478983f80278866b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_531.asset using Guid(2c3b022252b181a478983f80278866b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ef17b5db96832b11aed109d034d28dbf') in 0.027990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_1103.asset
+  artifactKey: Guid(4de501a84e55c1247a2ed84054302ac4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_1103.asset using Guid(4de501a84e55c1247a2ed84054302ac4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '292508423f5c77bde74799426ef4a493') in 0.024664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_209.asset
+  artifactKey: Guid(f476c0496fd92224ba79fb5c9fe9f51c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_209.asset using Guid(f476c0496fd92224ba79fb5c9fe9f51c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b0260ef10450222958806f4e2f33fdc2') in 0.026097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_290.asset
+  artifactKey: Guid(18a80d0cf7bc8dd438d01e242f0ed524) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_290.asset using Guid(18a80d0cf7bc8dd438d01e242f0ed524) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2179fde62dba19a9db950d0e2dd421f9') in 0.028692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_453.asset
+  artifactKey: Guid(fe419152474f6534da09636607ffa21e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_453.asset using Guid(fe419152474f6534da09636607ffa21e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c93eb013bcd6a01359d1fe937bb0785f') in 0.024643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_552.asset
+  artifactKey: Guid(721831cef4be02e42a83226d870233eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_552.asset using Guid(721831cef4be02e42a83226d870233eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6f36f64fe5417713eef35fa7e15f0fc9') in 0.025178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_190.asset
+  artifactKey: Guid(cb200ef31f7856e428eb6e82ea3f2a9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_190.asset using Guid(cb200ef31f7856e428eb6e82ea3f2a9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8ae77a86801d3d5a688ac8731bc7907d') in 0.028167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_1010.asset
+  artifactKey: Guid(73cccf92765332f4691dbf8d25eee149) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_1010.asset using Guid(73cccf92765332f4691dbf8d25eee149) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0543934f285823cb2387bbcb0f1e5469') in 0.026525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_128.asset
+  artifactKey: Guid(6a46bc1ca61314c4a8fa2b63b21aad66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_128.asset using Guid(6a46bc1ca61314c4a8fa2b63b21aad66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9e4e695113c305a644cffa932a7da78b') in 0.039453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_1024.asset
+  artifactKey: Guid(1cd70bda39deb1e408f5cedde7973434) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_1024.asset using Guid(1cd70bda39deb1e408f5cedde7973434) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '789860154fa19c6018fedbe4941d1ecf') in 0.030867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_250.asset
+  artifactKey: Guid(855ea205d843efa4eb936891277eb71c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_250.asset using Guid(855ea205d843efa4eb936891277eb71c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2b0c9188f5e2b97cf64536ae93b6a234') in 0.025906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_558.asset
+  artifactKey: Guid(1776ba3b684914a4982698d7ca0d302f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_558.asset using Guid(1776ba3b684914a4982698d7ca0d302f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7cd0b3df1770f44c552c857739fe8d61') in 0.042038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_1048.asset
+  artifactKey: Guid(775c66d817ca0444d9dfad8b0eedbead) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_1048.asset using Guid(775c66d817ca0444d9dfad8b0eedbead) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aff481ea3c62eb88ba296f78b1daf415') in 0.053635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_397.asset
+  artifactKey: Guid(5c0cf60e682fd854eb29261c9afaa7d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_397.asset using Guid(5c0cf60e682fd854eb29261c9afaa7d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '55f8a8377876676e50ca5101e5e93b28') in 0.042636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_125.asset
+  artifactKey: Guid(c2f43152283f7ec4c82d4a0dbd9419ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_125.asset using Guid(c2f43152283f7ec4c82d4a0dbd9419ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1f469b6a6cbe383870abb799f47ac819') in 0.043083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_564.asset
+  artifactKey: Guid(7027488dbfffe0a40aa7ff417d9c9a94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_564.asset using Guid(7027488dbfffe0a40aa7ff417d9c9a94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c8792207af7538c3cb141d1c2fbe8cb6') in 0.033719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_417.asset
+  artifactKey: Guid(2dfaebce4a1b56541a74b8c218764425) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_417.asset using Guid(2dfaebce4a1b56541a74b8c218764425) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '59639e49e6114ec2c15a5009f8eddaeb') in 0.037083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_42.asset
+  artifactKey: Guid(cecd691896b9bd748ad5d6902f4edcc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_42.asset using Guid(cecd691896b9bd748ad5d6902f4edcc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3a33d32030f980ab12bc7ee598cab977') in 0.038071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_103.asset
+  artifactKey: Guid(184c955ef5e0c534dafe5bfa11882140) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_103.asset using Guid(184c955ef5e0c534dafe5bfa11882140) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '78d70f51e87ca9e1386ab48d0da81a4a') in 0.032536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_348.asset
+  artifactKey: Guid(379dbc9039fd9d049a4e8283cff42c80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_348.asset using Guid(379dbc9039fd9d049a4e8283cff42c80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2941a5f1cad607bd385ae6a63c7b314c') in 0.036934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_548.asset
+  artifactKey: Guid(e74b881ede2d7864890fb9297ddeda44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_548.asset using Guid(e74b881ede2d7864890fb9297ddeda44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7aeff6430e188d18e97252c5d5bdf1c4') in 0.034875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_26.asset
+  artifactKey: Guid(7288cdddc6173564888e660ee16b25b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_26.asset using Guid(7288cdddc6173564888e660ee16b25b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b6cc9629db7bfcf3186cd76fa25b932a') in 0.030057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_159.asset
+  artifactKey: Guid(01fd8c444f75e2046a37559c69750c58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_159.asset using Guid(01fd8c444f75e2046a37559c69750c58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b6436e310ad62cf7666d2c6c2cb2f426') in 0.029896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_1005.asset
+  artifactKey: Guid(2bf495311e330f74383167c6f32b6f6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_1005.asset using Guid(2bf495311e330f74383167c6f32b6f6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '216425e83047428badeea988176f79c7') in 0.034809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Graphics/Tile Palettes/Tiles/Overworld_156.asset
+  artifactKey: Guid(bc0c2637037827a47ad496172a47ae74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Graphics/Tile Palettes/Tiles/Overworld_156.asset using Guid(bc0c2637037827a47ad496172a47ae74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '52bba5dc99d5a9bc8bdecb0eb1472ab6') in 0.025607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
