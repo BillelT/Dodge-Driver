@@ -37,7 +37,7 @@ public class PlayerManager : MonoBehaviour
 	//Variables attributs  du joueur.
 	
 	private int nbDeath = 0; //Enregistre le nombre de morts.
-	private float timerGame = 0;
+	//private float timerGame = 0;
 	private bool endTimer = false;
 	
 	/* [ADDED] */
@@ -98,24 +98,24 @@ public class PlayerManager : MonoBehaviour
 	void FixedUpdate() {
 		//On récupère si les touches de directions horizontales et verticales sont pressées, cela donne un nombre entre 0 (pas pressé) et 1 (pressé).
         _movement.x = Input.GetAxisRaw("Horizontal");
-		_movement.y = Input.GetAxisRaw("Vertical");
+		// _movement.y = Input.GetAxisRaw("Vertical");
 
 		//Si la valeur récupérée est supérieure à 0, ça veut dire que la touche est pressée.
 		bool isMovingHorizontal = Mathf.Abs(_movement.x) > 0;
-		bool isMovingVertical = Mathf.Abs(_movement.y) > 0;
+		// bool isMovingVertical = Mathf.Abs(_movement.y) > 0;
 
 		//On évite que le joueur bouge horizontalement ET verticalement.
 		if (Mathf.Abs(_movement.x) > 0)
         {
             isMovingHorizontal = true;
-            isMovingVertical = false;
+           // isMovingVertical = false;
         }
 
 		//S'il se déplace verticalement, la priorité est au déplacement vertical
         if (Mathf.Abs(_movement.y) > 0)
         {
             isMovingHorizontal = false;
-            isMovingVertical = true;
+           // isMovingVertical = true;
         }
 
 		//On définit le vecteur de mouvement en fonction des données précédentes.
@@ -123,18 +123,18 @@ public class PlayerManager : MonoBehaviour
         {
             _movement = Vector2.right * _movement.normalized.x;
         }
-        else if (isMovingVertical)
-        {
-            _movement = Vector2.up * _movement.normalized.y;
-        }
+      //  else if (isMovingVertical)
+      //  {
+      //      _movement = Vector2.up * _movement.normalized.y;
+        //}
 		
 		//Si le chronomètre n'est pas arrêté, on ajoute le laps de temps écoulé au chronomètre et on actualise le HUD
-		if(!endTimer){
-			timerGame += Time.fixedDeltaTime;
-			if(hud != null){ //On édite le HUD
-				hud.updateTimer(timerGame);
-			}
-		}
+	//	if(!endTimer){
+		//	timerGame += Time.fixedDeltaTime;
+			//if(hud != null){ //On édite le HUD
+				//hud.updateTimer(timerGame);
+			//}
+		//}
 		
 		//Si le personnage est gelé, (si la variable freeze est supérieure à 0), on diminue la variable freeze du laps de temps écoulé, mesuré par Time.fixedDeltaTime).
 		if(freeze > 0){

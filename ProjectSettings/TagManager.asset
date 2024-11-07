@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Wall
+  - BorderBottom
+  - Obstacle
+  - Bonus
+  - Background
+  - BorderBackground
+  - Audio
   layers:
   - Default
   - TransparentFX

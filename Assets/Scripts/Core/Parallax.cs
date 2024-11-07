@@ -4,19 +4,27 @@ using UnityEngine;
 
 public class Parallax : MonoBehaviour
 {
-    public float scrollSpeed = 1.0f; // Vitesse de défilement
-    private float spriteHeight; // Hauteur du sprite de route
+    public float scrollSpeed = 1.0f;
+    public float scrollSpeedBg = 8.0f;
+    public Renderer BackgroundRenderer;
+    public GameObject background;
 
-    private void Start()
+    void Update()
     {
-        // Récupérer la hauteur du sprite de route
-        spriteHeight = GetComponent<SpriteRenderer>().bounds.size.y;
+
+        if (BackgroundRenderer != null)
+        {
+            BackgroundRenderer.material.mainTextureOffset += new Vector2(0f, scrollSpeed * Time.deltaTime);
+        } else
+        {
+            transform.position -= new Vector3(0f, scrollSpeedBg * Time.deltaTime);
+        }
+
     }
-
-    private void Update()
+    public void IncreaseParallaxSpeed(float amount)
     {
-        // Déplacer le sprite de route le long de l'axe Y
-        float newY = Mathf.Repeat(Time.time * scrollSpeed, spriteHeight);
-        transform.position = new Vector2(transform.position.x, newY);
+        scrollSpeed += amount;
+        Debug.Log("test");
+            
     }
 }
